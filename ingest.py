@@ -22,6 +22,7 @@ def ingest_documents():
     )
     db.persist()
     print("✅ Ingestion complete.")
+    
 
 if __name__ == "__main__":
     ingest_documents()

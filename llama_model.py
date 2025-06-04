@@ -19,4 +19,5 @@ def ask_ollama(prompt: str) -> str:
             return "Ollama didn't return a valid response."
     except Exception as e:
         print("🔥 Error communicating with Ollama:", str(e))
+        
         return "Failed to connect to Ollama or model not running."

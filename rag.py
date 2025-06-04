@@ -12,6 +12,7 @@ Context:
 {context}
 
 Question: {query}
+
 Answer:
 """
     response = ask_ollama(prompt.strip())
